@@ -1,0 +1,136 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 0;
+}
+
+div{
+	margin: 0;
+	padding: 0;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.break{
+	clear: both;
+}
+
+.wrapper{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#header{
+	background-color: #E0E0E0;
+	height: 60px;
+	border-bottom: 1px solid #817F7F;
+}
+
+#logo{
+	font-weight: bold;
+	font-family: 'Lobster', cursive;
+	font-size: 1.6em;
+	margin: 10px 0px 0px 10px;
+	text-decoration: underline; 
+}
+
+#runButton{
+	margin-right: 10px;
+	border: 2px solid black;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #E0E0E0;
+	color: black;
+	margin-top: 10px;	
+}
+
+.buttonColour{
+	background-color: #817F7F !important;
+}
+
+#menu{
+	list-style: none;
+	margin: 0 auto;
+	width: 259px;
+	height: 38px;
+	position: relative;
+	top: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 0;
+	background-color: #E0E0E0;
+}
+
+
+.toggle{
+	float: left;
+	padding: 10px 0px; 
+	border-right: 1px solid black;
+	width: 64px;
+	text-align: center;
+}
+
+.selected{
+	background-color: #817F7F;
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+	background-color: yellow;
+	margin: 0;
+
+}
+
+.codeContainer{
+	height: 100%;
+	width: 50%;
+	position: relative;
+	float: left;
+}
+
+.codeContainer textarea {
+	height: 100%;
+	width: 99.3%;
+	margin: 0;
+	padding: 10px;
+	padding-top: 35px;
+	border: none;
+	border-right: 1px solid #817F7F;
+	overflow: auto;
+	resize: none;
+	box-sizing: border-box;   /*this property makes any div appear like a box*/
+	/*(font-family: monotype; */
+}
+
+.codeStyle {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: 1px solid #817F7F;
+	padding: 4px;
+	border-radius: 5px; 
+}
+
+#show_CSS, #show_JS {
+	display: none;
+}
+
+iframe {
+	width: 90%;
+	height: 100%;
+	position:relative;
+	left: 20px;
+	border: none;
+}
